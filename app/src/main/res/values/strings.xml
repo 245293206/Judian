@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Young</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="hello_round">Hello Round World!</string>
+    <string name="hello_square">Hello Square World!</string>
+    <string name="hello_text">欢迎来到聚点！</string>
+    <string name="judian_title">聚点部落</string>
+    <string name="bt_talk">会话</string>
+    <string name="bt_connectors">联系人</string>
+    <string name="bt_setting">设置</string>
+    <string name="bt_message">消息</string>
+    <string name="bt_main_quit">切换帐号</string>
+    <string name="group">群组</string>
+    <string name="add_a_friend">添加好友</string>
+    <string name="find_a_friend">查找</string>
+    <string name="name">名称</string>
+    <string name="add">添加</string>
+</resources>

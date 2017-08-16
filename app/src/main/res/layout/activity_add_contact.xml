@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="@color/btn_blue_normal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:text="@string/add_a_friend"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/tv_add_find"
+            android:text="@string/find_a_friend"
+            android:textSize="25sp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <EditText
+        android:id="@+id/et_add_name"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/rl_add"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/iv_add_photo"
+            android:src="@drawable/em_default_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <TextView
+            android:id="@+id/tv_add_name"
+            android:layout_toRightOf="@id/iv_add_photo"
+            android:textSize="20sp"
+            android:layout_marginLeft="10dp"
+            android:layout_centerInParent="true"
+            android:text="@string/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/bt_add_add"
+            android:text="@string/add"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
